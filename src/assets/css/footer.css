@@ -1,0 +1,95 @@
+.footer_sec{
+    bottom: 0px;
+    background-color: black;
+    width: 100%;
+    color:white;
+    padding: 50px 0px;
+}
+
+footer .container{
+    max-width: 1230px;
+    height: auto;
+    margin:auto;
+}
+footer .f_row {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+footer .f_col {
+    flex: 1 1;
+    border-right: 1px solid #fff;
+    padding-left: 20px;
+}
+footer .f_row .f_col:last-child{
+    border: none;
+}
+footer .f_row .f_col:first-child{
+    padding-left:0px;
+}
+.f_row h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.menu_footer {
+    padding-top: 30px;
+    border-top: 1px solid #ffffff;
+    margin-top: 60px;
+}
+.menu_footer ul li {
+    flex: 1;
+}
+.menu_footer ul {
+    display: flex;
+    text-align: center;
+}
+.menu_footer ul a {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.menu_footer ul a:hover {
+    text-decoration: underline;
+    color: #6fa553;
+}
+.footer_logo img {
+    width: 100%;
+    max-width: 240px;
+    padding-top: 90px;
+}
+.f_icons {
+    padding-top: 90px;
+}
+.f_icons span {
+    padding-left: 22px;
+}
+.f_icons span svg {
+    font-size: 40px;
+}
+.hrs_f li {
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+.addres_f {
+    padding-right: 30px;
+}
+.addres_f p {
+    color: white;
+    font-size: 16px;
+}
+.hrs {
+    padding-bottom: 10px;
+}
+.hrs a {
+    font-size: 16px;
+}
+.toll a {
+    font-size: 16px;
+}
+.addres_f img {
+    width: 16px;
+    position: absolute;
+    margin-left: -32px;
+}
+.addres_f {
+    padding:0px 30px;
+}
